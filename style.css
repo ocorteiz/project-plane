@@ -54,10 +54,12 @@ main > section > h1 {
 main > section > h2 {
     font-size: 2em;
     padding-bottom: 10px;
+    padding: 5px;
 }
 
 main > section > p {
     margin: auto;
+    padding: 5px;
     color: lightgray;
     padding-bottom: 20px;
 }
