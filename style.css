@@ -44,13 +44,15 @@ main {
 }
 
 main > section > h1 {
-    font-size: 6em;
+    font-size: 4em;
+    margin: auto;
     padding: 15px;
     padding-bottom: 30px;
+
 }
 
 main > section > h2 {
-    font-size: 3em;
+    font-size: 2em;
     padding-bottom: 10px;
 }
 
@@ -58,4 +60,32 @@ main > section > p {
     margin: auto;
     color: lightgray;
     padding-bottom: 20px;
+}
+
+aside {
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    color: #151D2F;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+aside > h3 {
+    font-size: 4em;
+}
+
+aside > ul {
+    list-style-type: '\2714\0020\0020\0020';
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+aside > p {
+    background-color: #4F46E6;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    padding-top: 8px;
 }
