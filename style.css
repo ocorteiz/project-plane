@@ -67,7 +67,7 @@ main > section > p {
 aside {
     display: inline-block;
     background-color: white;
-    max-width: 200px;
+    width: 200px;
     color: #151D2F;
     padding: 10px;
     margin-bottom: 10px;
