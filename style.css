@@ -43,21 +43,33 @@ main {
     color: whitesmoke;
 }
 
-main > section > h1 {
+section.principal {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+section.principal > h1 {
     font-size: 4em;
     margin: auto;
     padding: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 
 }
 
-main > section > h2 {
+section.principal > p {
+    padding-left: 15px;
+    max-width: 500px;
+}
+
+section.planos > h2 {
     font-size: 2em;
     padding-bottom: 10px;
     padding: 5px;
+    text-align: center;
 }
 
-main > section > p {
+section.planos > p {
     margin: auto;
     padding: 5px;
     color: lightgray;
