@@ -93,5 +93,16 @@ aside > p {
 }
 
 .semestral {
-    padding: 30px;
+    padding: 40px;
+    position: relative;
+}
+
+.popular {
+    position: absolute;
+    top: -10px;
+    left: 90px;
+
+    padding: 2px;
+    height: 20px;
+    border-radius: 10px;
 }
